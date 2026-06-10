@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selector</title>
+<style>
+    /*there shouldn't be space between the element name and attribute bracket*/
+    [class *="loyelat"] {
+        background-color: black;
+        color: white;
+    }
+</style>
+</head>
+<body>
+    <h1 class="loyelat">LOyelatcode</h1>
+    <h1 class="loyelat-web">LOyelatcode</h1>
+    <h1 class="loyelat code">LOyelatcode</h1>
+    <h1 class="sharp loyelat">LOyelatcode</h1>
+    <h1 class="niceloyelat">LOyelatcode</h1>
+    <h1 class="well-loyelat-work">LOyelatcode</h1>
+    <h1>LOyelatcode</h1>
+</body>
+</html>
+<!--
+[attribute] find specific att.
+[attribute="value"] find specific att. with value
+(tilde) [attribute~="value"] find space seperated value
+(pipe) [attribute|="value"], value should be at starting point, alone or with hyphen.
+(caret) [attribute^="value"], value should be at starting point and did not need to be seperated.
+(dollar) [attribute$="value"], value should be at the ending point and did not need to seperated.
+(asterisk) [attribute*="value"], value may be at any point and did not need to be seperated.
+-->

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gradients</title>
+   <style>
+    .linear {
+        width: 700px;
+        height: 200px;
+        background: linear-gradient(to left, yellow, green, gold);
+    }
+    .repli {
+        width: 700px;
+        height: 200px;
+        background: repeating-linear-gradient(to bottom left, violet 20%, indigo 30%, gold 40%);
+    }
+    .radial {
+        width: 800px;
+        height: 400px;
+        background: radial-gradient(ellipse closest-corner at 70% 50%, gold, grey, brown);
+    }
+    .reprad {
+         width: 700px;
+        height: 200px;
+        background: repeating-radial-gradient(circle farthest-side at 50% 50%, green 20%, blue 30%, violet 40%);
+    }
+    img {
+        
+        opacity: 0.5;
+        width: 500px;
+        height: 300px;
+    }
+    #bf {
+        background-color: #4CAF50;
+        border: 5px green solid;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: underline;
+        text-transform: uppercase;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        transition-duration: 5s;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+   </style>
+</head>
+<body>
+    <div class="linear">
+
+    </div>
+<br><br>
+ <div class="repli">
+
+    </div>
+<br><br>
+    <div class="radial">
+        <div id="line">
+
+        </div>
+    </div>
+    <br><br>
+    <div class="reprad">
+
+    </div>
+    <div>
+        <img src="mp.jpg" alt="">
+    </div>
+    <button id="bf">
+        <a href="shadow_in_css.html">Login</a>
+
+    </button>
+</body>
+</html>

@@ -1,0 +1,14 @@
+More characters founded here:
+
+https://en.wikipedia.org/wiki/UTF-8
+https://www.utf8-chartable.de/
+https://www.freeformatter.com/html-entities.html
+
+
+More symbols founded here:
+https://html-css-js.com/html/character-codes/all/
+
+
+
+More Emoji founded here:
+https://html-css-js.com/html/character-codes/icons/

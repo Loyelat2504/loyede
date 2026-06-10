@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Progination</title>
+    <style>
+        div {
+
+        }
+        .no a {
+                text-decoration: none;
+                padding: 10px;
+        }
+        .no #yes {
+            color: whitesmoke;
+            background-color: chocolate;
+            padding: 10px 10px;
+        }
+        .no a:hover:not(#yes) {
+            background-color: burlywood;
+
+        }
+    </style>
+</head>
+<body>
+    <h3>    
+        Progination
+    </h3>
+    <div class="no">
+        <a href="#">&laquo</a>
+         <a href="#">1</a>
+          <a href="#">2</a>
+           <a href="#">3</a>
+            <a href="#" id="yes">4</a>
+             <a href="#">5</a>
+              <a href="#">6</a>
+               <a href="#">7</a>
+                <a href="#">&raquo</a>
+    </div>
+</body>
+</html>

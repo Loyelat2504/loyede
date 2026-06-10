@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo element</title>
+    <style>
+        h1::first-letter {
+            background-color: aqua;
+            font-size: 100px;
+            color: brown;
+        }
+        h1::before {
+            content: "Before element";
+        }
+        p::first-line {
+            background-color: aquamarine;
+        }
+        p::after {
+            content: "after element";
+            color: blue;
+            background-color: aliceblue;
+        }
+        body::selection {
+            color: rgb(236, 236, 236);
+            background-color: green;
+        }
+        ::placeholder {
+            color: rgb(220, 220, 220);
+            background-color: rgb(223, 21, 21);
+        }
+        #tap:active {
+            color: blue;
+        }
+        
+
+    </style>
+</head>
+<body bgcolor="yellowgreen">
+   <h1> How are you doing guys👌🤦‍♀️</h1>
+   <p>I wanna greet you How are you doing guys👌🤦‍♀️How are you doing guys
+    How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️
+    How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️
+    How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️
+    How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️
+    How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️
+    How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️How are you doing guys👌🤦‍♀️
+   </p>
+   <form action="">
+<fieldset>
+    <span  style="color: brown; background-color: aqua;">Personal Information</span><br>
+    <hr><hr>
+<label for="firstname">Firstname:</label>
+<input type="text" name="firstname" id="" placeholder="firstname">
+<br><br>
+<label for="lastname">Lastname:</label>
+<input type="text" name="lastname" id="" placeholder="lastname">
+<br><br>
+<label for="email">Email:</label>
+<input type="email" name="email" id="" placeholder="email">
+</fieldset>   
+</form>
+   <a href="#" id="tap"><h2>Don't Click</h2></a>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>CSS Drop Down</title>
+    <style>
+        body{ background-color: black; margin: 0; font-family: 'tahoma'}
+
+        nav {
+            /* margin:0 auto; */
+            width: 100%;
+            height: auto;
+            display: inline-block;
+            background: green;
+        }
+        nav ul {
+            /* margin:0;padding:0; */
+            list-style-type: none;
+            float: left;
+            /* display: inline-block; */
+        }
+        nav ul li {
+            position: relative;
+            /* margin: 0 20px 0px 0; same as the one below*/
+            margin-right: 25px;
+            float: left;
+            /* display: inline-block; */
+        }
+        nav ul li a {
+            padding: 20px;
+            display: inline-block;
+            color: aqua;
+            text-decoration: none;
+            font-family: cursive;
+            font-size: 25px;
+        }
+        nav ul li a:hover {
+            opacity: 0.6;
+        }
+
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            /* left: 0; */
+            background-color: indianred;
+            /* float: left; */
+            
+        } 
+
+        nav ul li ul li {
+            width: fit-content;
+            border-width: 0 0 3px 0;
+            /* border-bottom-width: 3px; */
+            border-color: black;
+            border-style: solid;
+        }
+
+        nav ul li:hover ul{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Courses</a>
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">python</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">Java</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Contact us</a>
+            <ul>
+                <li><a href="#">Phone</a></li>
+                <li><a href="#">Form</a></li>
+                <li><a href="#">Address</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Project</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS  Form</title>
+    <style>
+        input[type=text]{
+            background-color: cadetblue;
+            width: 50%;
+            transition: all 2s ease-in-out;
+        }
+        label::selection{
+            color: blue;
+            background-color: aquamarine;
+        }
+        input[type=submit]:hover{
+           color: aqua;
+        }
+        input[type=text]:focus{
+            background-color: chartreuse;
+             width: 700px;
+        }
+        input[type=submit]{
+            background-color: burlywood;
+            margin-left: 200px;
+        }
+        input[type=submit]:active {
+            background-color: #fff;
+        }
+    </style>
+
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>LOGIN DETAILS</legend><br>
+    <label for="first_name">FIRSTNAME</label>
+    <input type="text" name="firstname" id="firstname" minlength="15" required autofocus><br><br><br>
+    <label for="last_name">LASTNAME</label>
+    <input type="text" name="lastname" id="lastname" maxlength="15" required><br><br><br>
+    <input type="submit" value="submit">
+</fieldset>
+</form>
+</body>
+</html>

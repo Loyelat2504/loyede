@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Media Queries</title>
+    <style>
+        .media {
+            height: 300px;
+            width: 600px;
+            color: blue;
+            }
+            .media::selection {
+                background-color: black;
+                color: white;
+            }
+        @media screen and (max-width:800px) {
+            .media {
+                width: 100%;
+            }
+        }
+        @media screen and (min-width:600px){
+            .tip img {
+                 width: 100%;
+            }
+        }
+        @media screen and (max-width:700px){
+                .block h1 {
+                background-color: burlywood;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="media">
+         Have you ever found yourself frustrated with how things used to work before technology took
+over? Think about the early days of computers when they were slow, bulky, and could only
+perform fundamental tasks. In those days, computers were so limited that even simple
+calculations could take several minutes!
+Let’s take a trip down memory lane.
+Back in the day, everything was done manually, and that often meant long queues, bulky paper
+files, and plenty of unnecessary stress. Picture this: you go to the bank just to withdraw or
+deposit money. You join a long line under the hot sun, holding your withdrawal slip and hoping
+the cashier doesn’t close for lunch before your turn comes. Transactions were written in huge
+ledgers, and one tiny mistake could keep you standing there for hours while the staff “balanced
+the books.”
+Or think about how students used to register for courses in universities. You had to travel all the
+way to campus, fill several forms by hand, and queue up again to submit them, only to be told
+later that your name wasn’t “on the list.” Imagine doing that for every semester! These
+situations were frustrating, time-consuming, and often costly.
+Now compare that to today, you can transfer money from Ilorin to Lagos in seconds using a
+mobile app. You can register for your courses, download learning materials, and even attend
+virtual classes from home. if airplanes had advanced as quickly as computers have, you could
+probably buy a small personal aircraft for the price of a bicycle and fly from Lagos to Abuja in
+under five minutes.
+</div>
+<div class="tip">
+<img src="yes.jpg" alt="">
+</div> 
+<div class="block">   
+<h1>LoyelatCode</h1>
+</div>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOYELAT FOOTBALL</title>
+    <link rel="icon" href="loyelat_football.jpg">
+    <style>
+        body{margin:0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+        main {
+            /* margin: auto; */
+            width: 100%;
+            height: 1000px;
+        }
+        header{
+            width: 100%;
+            height: 200px;
+            background-color: black;
+            
+        }
+        @media screen and (max-width:650px) {
+            header {
+                width:100%;
+            }
+        }
+        div#first{
+            color: white;
+            margin-left: 10px;
+
+        }
+        span{
+             color: rgb(115, 62, 184);
+            font-size: xx-large;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+           
+        }
+        nav {
+            margin-top: 90px;
+            height: 50px;
+            width: 100%;
+            background-color: rgb(15, 79, 15);
+            display: inline-block;
+        }
+        @media screen and (max-width:750px) {
+            nav {
+                width:100%;
+                margin-top: 90px;
+            }
+        }
+        nav ul {
+            display: inline-block;
+            float: left;
+            list-style-type: none;
+
+        }
+        nav ul li {
+            display: inline-block;
+            float: left;
+            /* margin-right: 30px; */
+            position: relative;
+        }
+        nav ul li a{
+            display: inline-block;
+            color: aqua;
+            padding-right: 30px;
+            margin-right:200px;
+            /* text-decoration: none; */
+        }
+        @media screen and (max-width:800px) {
+            nav ul li a {
+                width:100%;
+                padding-right: 10px;
+                margin-right:30px;
+            }
+        }
+        nav ul li a:hover{
+            opacity: 0.4;
+        }
+        nav ul li a:active{
+            color: rgb(255, 1, 1);
+        }
+         
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            width: 200px;
+            background-color: black;
+        }
+        @media screen and (max-width:650px) {
+            nav ul li ul {
+                width:100%;
+                margin: 10px;
+            }
+        }
+        nav ul li:hover ul {
+            display: block;
+        }
+        nav ul li ul li{
+            
+            color: white;
+            
+        }
+        #aside1 {
+            width: 20%;
+            height: 700px;
+            float: left;
+            background-color: rgb(118, 139, 202);
+            overflow: scroll;
+        }
+        article{
+            width: 60%;
+            height: 700px;
+            float: left;
+            background-color: cornflowerblue;
+        }
+        #aside2{
+             width: 20%;
+            height: 700px;
+            float: left;
+            background-color: cadetblue;
+        }
+        footer{
+            width: 100%;
+            height: 100px;
+            background-color: rgb(86, 102, 172);
+            clear: both;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <div id="first">
+                <span>WELCOME TO LOYELAT FOOTBALL,</span>  <br><br>
+                WHERE WE ANALYSE FOOTBALL: 
+                <br>WE Provide player stats, analyse the player and the player's impact in the team.
+
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">COUNTRY</a>
+                    <ul id="country">
+                        <li>Argentina</li><br>
+                        <li>Brazil</li><br>
+                        <li>England</li><br>
+                        <li>France</li><br>
+                        <li>Portugal</li><br>
+                        <li>Spain</li><br>
+                    </ul>
+                    </li>
+                    <li><a href="#">CLUB</a>
+                    <ul id="club">
+                        <li>Arsenal</li><br>
+                        <li>Chelsea</li><br>
+                        <li>Liverpool</li><br>
+                        <li>Manchester City</li><br>
+                        <li>Manchester United</li><br>
+                        <li>Tottenham Hospuor</li><br>
+                    </ul>
+                    </li>
+                    <li><a href="#">Player</a>
+                    <ul id="player">
+                        <li>Lionel Messi</li><br>
+                        <li>Bryan Mbuemo</li><br>
+                        <li>Amad Diallo</li><br>
+                        <li>Carlos Balleba</li><br>
+                        <li>Patrick Dorgu</li><br>
+                        <li>Luke Shaw</li><br>
+                        <li>Lisandro Matinez</li><br>
+                    </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+       <aside id="aside1">
+
+       </aside>
+       <article>
+        
+       </article>
+       <aside id="aside2">
+
+       </aside>
+       <footer>
+
+       </footer>
+    </main>
+</body>
+</html>

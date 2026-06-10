@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Un-Ordered List in HTML</title>
+    <style>
+        ul {
+            background-color: green;
+            color: white;
+            font-size: 30px;
+            list-style: disc;
+        }
+        ul li ul {
+                    background-color: aqua;
+                    color: black;
+                    display: none;
+        }
+        ul li:hover ul {
+            display: inline-block;
+            position: relative;
+        
+        } 
+    </style>
+</head>
+<body>
+    <ul type="">
+        <a href="#"><li>Pink</li></a>
+        <a href="#"><li>Blue</li></a>
+        <a href="#"><li>Indigo</li></a>
+        <a href="#"><li>yellow</li></a>
+        <li><a href="#">More</a>
+            <ul>
+                <li>Brown</li>
+                <li>Violet</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

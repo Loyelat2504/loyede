@@ -1,0 +1,1 @@
+document.write("This is an External File; also a way of writing JavaScript Code")
